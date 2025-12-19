@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFE9EB">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/imgContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="10dp"
+
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/corn" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgContainer"
+                android:textSize="26dp"
+                android:textColor="@color/black"
+                android:text="Висока вологість обмежує пропозицію кукурудзи в Україні"
+                android:padding="10dp"/>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView1"
+                app:layout_constraintHorizontal_bias="0.03"
+                android:textSize="16dp"
+                android:text="09:52"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="Зима — час для відпочинку саду, але деякі дії садівників, продиктовані бажанням навести лад, можуть завдати рослинам непоправної шкоди. Головна причина, чому варто припинити активні роботи, проста: коренева система рослин переходить у режим спокою, а промерзлий ґрунт змінює свою структуру, пише .
+
+Чому замерзлий ґрунт диктує власні правила
+З настанням справжнього холоду варто розуміти, як змінюється ґрунт і рослини. Коли температура ґрунту стабільно опускається нижче 0°C, деякі садові дії стають не просто неефективними — вони можуть зашкодити.
+
+
+Структура ґрунту: Промерзла земля ущільнюється, стає щільнішою.
+Життя у ґрунті: Ґрунтові мікроорганізми, які відповідають за розкладання органіки, стають неактивними.
+Рослини: Коренева система переходить у режим спокою і майже не поглинає воду та поживні речовини.
+Помилка №1. Посадка цибулин і саджанців
+Поки земля залишається м'якою, можна встигнути завершити осінні посадки. Але коли ґрунт промерзає, будь-які посадки стають ризикованими та невиправданими.
+
+Основні ризики:
+
+Укорінення: Коріння не встигає укоренитися до морозів, оскільки обмінні процеси зупинені.
+Цибулини: Ризикують загнити або вимерзнути через слабку адаптацію.
+Саджанці: Можуть не пережити зиму, оскільки не отримали належної підготовки.
+Оптимальний час для осінньої посадки – за 3–4 тижні до стабільних холодів. Якщо цей момент упущено, краще зачекати весни.
+
+Помилка №2. Внесення мінеральних добрив та хімії
+У холодній землі коренева система рослин майже не працює. Тому внесення більшості препаратів втрачає сенс і може бути небезпечним.
+
+Мінеральні добрива: Вони не засвоюються рослинами. Поживні речовини залишаються у ґрунті невикористаними, а навесні їх змиває талою водою, що призводить до перевитрати. Ба більше, це може призвести до засолення ґрунту в прикореневій зоні.
+Гербіциди та пестициди: Ефективність хімічних засобів у холоді зводиться нанівець, оскільки бур’яни перебувають у стані спокою, а більшість шкідників неактивні.
+Єдиний виняток – це органічні підживлення, такі як компост або перепрілий гній. Вони працюють повільно і без ризику пошкодити рослини у період спокою.
+
+Помилка №3. Стрижка газону та робота з дерном
+Навіть якщо газон здається перерослим, зимове підстригання – одна з найпоширеніших помилок.
+
+Трава перестає рости в холоді, а стрижка робить її вразливішою до морозів.
+При цьому ушкоджується структура дерну, що може призвести до появи прогалин і плям навесні.
+Останнє підстригання слід проводити восени, до зниження температур. Узимку торкатися газону не варто, щоб не порушити його природний зимовий захист.
+
+Помилка №4. Активне перемішування компосту
+Компостна купа продовжує працювати навіть узимку, але мікроорганізми стають значно менш активними.
+
+Перемішувати компост у мороз — не найкраща ідея, оскільки це знижує внутрішню температуру компосту. Процес розкладання сповільнюється ще більше, що відкладає готовність органічного добрива на весну.
+
+Органічні відходи взимку додавати можна, але перегортати купу слід лише після потепління.
+
+Що можна робити у замерзлому саду
+Якщо ґрунт замерз, зосередьтеся на захисті та плануванні:
+
+Утеплення: Додавайте сніг до кореневої зони рослин, оскільки сніг є чудовим природним ізолятором.
+Обтрушування: Обережно струшуйте сніг із гілок, щоб запобігти їхньому зламу під вагою.
+Захист від гризунів: Перевірте, чи захищені штамби молодих дерев від мишей та зайців.
+Планування: Присвятіть час вибору насіння, перевірці садового інвентарю та складанню плану весняних робіт.
+Висновок
+Щоб забезпечити здоровий розвиток саду навесні, необхідно дозволити рослинам і ґрунту пройти природний режим спокою. Найголовніше правило — уникати садіння, внесення мінеральних добрив та активних механічних робіт (стрижка, перемішування компосту) після того, як ґрунт замерз."/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

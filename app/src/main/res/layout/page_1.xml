@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFE9EB">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/imgContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="10dp"
+
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/foto_posiv_768x423" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgContainer"
+                android:textSize="26dp"
+                android:textColor="@color/black"
+                android:text="Садові роботи під час морозів: що категорично заборонено робити, щоб не занапастити рослини"
+                android:padding="10dp"/>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView1"
+                app:layout_constraintHorizontal_bias="0.03"
+                android:textSize="16dp"
+                android:text="19:00 07/12/25"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="В Україні триває складна збиральна кампанія кукурудзи: вже намолочено майже 21 млн тонн, але близько третини урожаю ще залишається в полях. Найбільші затримки спостерігаються у північних і західних областях. Попри покращення погоди, швидкість надходження кукурудзи на ринок обмежена. Про це повідомляють в аналітичному департаменті сільськогосподарського кооперативу ПУСК, створеного в межах ВАР. Основна причина обмеженої пропозиції — висока вологість зерна.  «Щоб довести кукурудзу до необхідних показників, доводиться знімати по 10–12% вологості. Це сильно уповільнює роботу сушарок. Тому елеватори повідомляють про нестачу потужностей і просять тимчасово не завозити нові партії зерна»,  — пояснюють аналітики. Спотові ціни залишаються стабільно вищими за форвардні і становлять $211–212 за тонну. В гривні показник досягає 10 100 – 10 200 грн/т і може зростати далі.  «Ми бачимо повільний, але стабільний рух вгору. Ціни можуть додавати по $1–2 на тонні щотижня,» — вважають аналітики."/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

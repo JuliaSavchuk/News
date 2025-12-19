@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFE9EB">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/imgContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="10dp"
+
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/fruit" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgContainer"
+                android:textSize="26dp"
+                android:textColor="@color/black"
+                android:text="Україна і Японія запускають проект для розвитку малого садівництва"
+                android:padding="10dp"/>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView1"
+                app:layout_constraintHorizontal_bias="0.03"
+                android:textSize="16dp"
+                android:text="08:25 27/11/24"/>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2"
+                android:padding="10dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="У Мінагрополітики обговорили новий навчальний проект з представниками Японського агентства міжнародного співробітництва У Мінагрополітики за участі заступниці Міністра Оксани Осьмачко та заступника міністра з питань цифрового розвитку, цифрових трансформацій і цифровізації МОН Дмитра Завгороднього відбулася зустріч з представниками Японського агентства міжнародного співробітництва (JICA). Сторони обговорили започаткування нового Проекту, направленого на сприяння розвитку малого садівництва: підвищення інклюзивності фермерів, зокрема жінок-фермерів. Мета проекту - покращення виробничих потужностей та бізнес-навичок фермерів. Зокрема, підвищення інклюзивності жінок-фермерів, що особливо актуально під час воєнного стану для переселенців та в умовах, коли чоловіче населення бере участь в бойових діях. Проект передбачає розробку навчальних програм для вирішення проблем, з якими зіштовхуються фермери. В рамках проекту будуть задіяні українські професійно-технічні навчальні заклади та заклади вищої освіти аграрного спрямування. Проект буде впроваджуватись японськими експертами, які працюватимуть дистанційно, максимально використовуючи місцеві ресурси. Також вони надаватимуть безпосередню допомогу сільськогосподарським дорадникам, проводячи тренінги в Японії та запрошуючи відповідних осіб до третіх країн. «Агросектор – не лише виробнича індустрія, а гарантія соціальної стабільності і сталості на селі. Важливо залучати до проекту розвитку малого садівництва жінок, а також молодь, яка може активно розвивати фермерство в сільській місцевості, забезпечуючи таким чином і розвиток територій», - зазначила Оксана Осьмачко."/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
